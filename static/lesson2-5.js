@@ -36,16 +36,16 @@ s.add('hello').add('goodbye').add('hello')
 // }
 // let map = new Map([[1, 2], [3, 4]])
 
-let map = new Map()
-
-map.set(10, 2)
-map.set(3, 'value-4')
-map.set(1, 'value-3')
-// map.delete(1)
+// let map = new Map()
+//
+// map.set(10, 2)
+// map.set(3, 'value-4')
+// map.set(1, 'value-3')
+// map.delete(1) // 删除的是kv对
 // map.clear()
 // console.log(map.size)
 // console.log(map.has(2))
-// console.log(map.get(1))
+// console.log(map.get(1)) // 得到的是 value
 // console.log(map.keys(), map.values(), map.entries())
 // map.forEach((value, key) => {
 //   console.log(value, key)
