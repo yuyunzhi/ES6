@@ -70,7 +70,7 @@
 // }
 //
 // Animal.prototype.eat = function () {
-//   Animal.walk()
+//   Animal.walk() // 静态方法是直接用类来调用的，实例方法用this来调用
 //   console.log('i am eat food hello')
 // }
 //
@@ -79,6 +79,8 @@
 // }
 // let dog = new Animal('dog')
 // dog.eat()
+// dog.walk() // 不存在的 因为是静态方法
+
 
 // class Animal {
 //   constructor (type) {
@@ -94,12 +96,14 @@
 // }
 // let dog = new Animal('dog')
 // dog.eat()
+//
 // let Animal = function (type) {
 //   this.type = type
 // }
 //
 // Animal.prototype.eat = function () {
 //   Animal.walk()
+//   console.log('this.type', this.type) // dog
 //   console.log('i am eat food hello')
 // }
 //
@@ -119,6 +123,7 @@
 //
 // let dog = new Dog('dog')
 // dog.eat()
+
 // class Animal {
 //   constructor (type) {
 //     this.type = type
