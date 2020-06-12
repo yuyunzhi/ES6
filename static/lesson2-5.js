@@ -35,6 +35,7 @@ s.add('hello').add('goodbye').add('hello')
 //   console.log(item)
 // }
 // let map = new Map([[1, 2], [3, 4]])
+
 let map = new Map()
 
 map.set(10, 2)
@@ -58,31 +59,32 @@ map.set(1, 'value-3')
 // map.set(o, 4)
 // console.log(map.get(o))
 
-const target = {
-  a: {
-    b: {
-      c: {
-        d: 9
-      }
-    },
-    e: 5,
-    f: 6,
-    h: 10
-  }
-}
-const source = {
-  a: {
-    b: {
-      c: {
-        d: 1
-      }
-    },
-    e: 2,
-    f: 3
-  }
-}
-Object.assign(target, source)
-
-console.log(target)
+// const target = {
+//   a: {
+//     b: {
+//       c: {
+//         d: 9
+//       }
+//     },
+//     e: 5,
+//     f: 6,
+//     h: 10
+//   }
+// }
+// const source = {
+//   a: {
+//     b: {
+//       c: {
+//         d: 1
+//       }
+//     },
+//     e: 2,
+//     f: 3
+//   }
+// }
+// Object.assign(target, source)
+//
+// console.log(target)
 
 // WeakSet,WeakMap
+
