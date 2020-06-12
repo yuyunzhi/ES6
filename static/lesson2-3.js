@@ -23,23 +23,25 @@
 // dog.eat()
 // monkey.eat()
 
-class Animal {
-  constructor (type) {
-    this.type = type
-  }
-  eat () {
-    console.log('i am eat food')
-  }
-}
-
-let dog = new Animal('dog')
-let monkey = new Animal('monkey')
-console.log(dog)
-console.log(monkey)
-dog.eat()
-monkey.eat()
+// class Animal {
+//   constructor (type) {
+//     this.type = type
+//   }
+//   eat () {
+//     console.log('i am eat food')
+//   }
+// }
+//
+// let dog = new Animal('dog')
+// let monkey = new Animal('monkey')
+// console.log(dog)
+// console.log(monkey)
+// dog.eat()
+// monkey.eat()
 //
 // console.log(typeof Animal)
+
+
 // let _age = 4
 // class Animal {
 //   constructor (type) {
@@ -58,11 +60,11 @@ monkey.eat()
 //   }
 // }
 // let dog = new Animal('dog')
-// console.log(dog.age)
-// dog.age = 8
-// console.log(dog.age)
-// console.log(dog._age)
-//
+// console.log(dog.age) // 4
+// dog.age = 6
+// console.log(dog.age) // 6
+// console.log(dog._age) // undefined
+
 // let Animal = function (type) {
 //   this.type = type
 // }
